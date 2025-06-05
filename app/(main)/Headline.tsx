@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-[3.5px] -left-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-[3.5px] -top-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      设计师
+      FE
     </span>
   )
 }
@@ -80,10 +80,10 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我是 fatdoge，
+          <PeekabooLink href="https://github.com/fatdoge">Vibe coding</PeekabooLink>
+          探索者，目前在互联网公司致力于打造 UX/DX 优异的基础平台，和优秀的团队一起创造影响世界的产品。
+          我热爱开发，AI，创新，享受生活，以及在未知领域中探索。
         </Balancer>
       </motion.p>
       <motion.div
@@ -114,18 +114,13 @@ export function Headline() {
           platform="bilibili"
         />
         <SocialLink
-          href="https://cali.so/github"
+          href="https://github.com/fatdoge"
           aria-label="我的 GitHub"
           platform="github"
         />
-        <SocialLink
-          href="https://cali.so/tg"
-          aria-label="我的 Telegram"
-          platform="telegram"
-        />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:xk74274491@gmail.com"
           aria-label="我的邮箱"
           platform="mail"
         />
