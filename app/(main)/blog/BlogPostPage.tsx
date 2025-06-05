@@ -72,7 +72,7 @@ export function BlogPostPage({
                   <Image
                     src={post.mainImage.asset.url}
                     alt=""
-                    className="select-none"
+                    className="select-none object-cover"
                     unoptimized
                     fill
                     aria-hidden={true}
@@ -81,7 +81,7 @@ export function BlogPostPage({
                 <Image
                   src={post.mainImage.asset.url}
                   alt={post.title}
-                  className="select-none rounded-2xl ring-1 ring-zinc-900/5 transition dark:ring-0 dark:ring-white/10 dark:hover:border-zinc-700 dark:hover:ring-white/20 md:rounded-3xl"
+                  className="select-none rounded-2xl object-cover object-center ring-1 ring-zinc-900/5 transition dark:ring-0 dark:ring-white/10 dark:hover:border-zinc-700 dark:hover:ring-white/20 md:rounded-3xl"
                   placeholder="blur"
                   blurDataURL={post.mainImage.asset.lqip}
                   unoptimized
